@@ -11,8 +11,8 @@ Here is an example of using it in a draggable widget directive
 			.directive("draggableWidget", function () {
 				return {
 					restrict: "E",
-          controllerAs: "ctrl",
-          bindToController: true,
+          				controllerAs: "ctrl",
+          				bindToController: true,
 					controller: draggableWidgetController,
 					templateUrl: "draggable-widget.html"
 				};
